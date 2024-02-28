@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "FinalProgramacion2023.Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FinalProgramacion2023.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinalProgramacion2023.Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProgramacion2023.Datos.dll": {}
+        }
+      },
+      "FinalProgramacion2023.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FinalProgramacion2023.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProgramacion2023.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinalProgramacion2023.Datos/1.0.0": {
+      "type": "project",
+      "path": "../FinalProgramacion2023.Datos/FinalProgramacion2023.Datos.csproj",
+      "msbuildProject": "../FinalProgramacion2023.Datos/FinalProgramacion2023.Datos.csproj"
+    },
+    "FinalProgramacion2023.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../FinalProgramacion2023.Entidades/FinalProgramacion2023.Entidades.csproj",
+      "msbuildProject": "../FinalProgramacion2023.Entidades/FinalProgramacion2023.Entidades.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "FinalProgramacion2023.Datos >= 1.0.0",
+      "FinalProgramacion2023.Entidades >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\fEdE\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Windows\\FinalProgramacion2023.Windows.csproj",
+      "projectName": "FinalProgramacion2023.Windows",
+      "projectPath": "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Windows\\FinalProgramacion2023.Windows.csproj",
+      "packagesPath": "C:\\Users\\fEdE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Windows\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fEdE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Datos\\FinalProgramacion2023.Datos.csproj": {
+              "projectPath": "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Datos\\FinalProgramacion2023.Datos.csproj"
+            },
+            "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Entidades\\FinalProgramacion2023.Entidades.csproj": {
+              "projectPath": "C:\\Users\\fEdE\\Desktop\\FinalProgramacion2023 - Feb 2024\\FinalProgramacion2023.Entidades\\FinalProgramacion2023.Entidades.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
